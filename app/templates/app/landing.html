@@ -1,0 +1,175 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Learnify - Learn Smarter</title>
+    <link rel="stylesheet" href="{% static 'app/landing.css' %}" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav">
+        <div class="logo">
+          <span class="logo-badge">LF</span>
+          Learnify
+        </div>
+        <nav class="nav-links">
+          <a href="#">Programs</a>
+          <a href="#">Mentors</a>
+          <a href="#">Pricing</a>
+          <a href="#">For Teams</a>
+        </nav>
+        <a class="cta" href="#">Start Free</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <h1>Master in-demand skills with guided learning paths.</h1>
+          <p>
+            A learning platform mockup that combines structured courses, mentor
+            feedback, and smart scheduling to keep learners on track and moving
+            forward.
+          </p>
+          <div class="hero-actions">
+            <a class="cta" href="#">Explore Courses</a>
+            <a class="btn-secondary" href="#">Watch Demo</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <strong>42k+</strong>
+              Learners
+            </div>
+            <div class="metric">
+              <strong>980</strong>
+              Live sessions
+            </div>
+            <div class="metric">
+              <strong>4.9/5</strong>
+              Avg rating
+            </div>
+          </div>
+        </div>
+        <div class="dashboard">
+          <div class="dashboard-header">
+            <div>
+              <strong>Weekly Learning Dashboard</strong>
+              <div style="color: var(--muted); font-size: 0.9rem;">
+                Personalized progress snapshot
+              </div>
+            </div>
+            <span class="pill">On Track</span>
+          </div>
+          <div class="course-grid">
+            <div class="course">
+              <div>
+                <strong>UX Design Foundations</strong><br />
+                <span>Next: Prototype review</span>
+              </div>
+              <div class="progress">
+                <div style="width: 70%;"></div>
+              </div>
+            </div>
+            <div class="course">
+              <div>
+                <strong>Python for Data</strong><br />
+                <span>Next: Pandas lab</span>
+              </div>
+              <div class="progress">
+                <div style="width: 45%;"></div>
+              </div>
+            </div>
+            <div class="course">
+              <div>
+                <strong>Product Strategy</strong><br />
+                <span>Next: Market analysis</span>
+              </div>
+              <div class="progress">
+                <div style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Why learners choose Learnify</h2>
+        <p>Everything you need to build real-world skills faster.</p>
+        <div class="features">
+          <div class="feature-card">
+            <h3>Guided Pathways</h3>
+            <p>
+              Curated tracks with milestones, checkpoints, and weekly
+              assignments.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>Mentor Feedback</h3>
+            <p>Get actionable critiques from industry mentors in 24 hours.</p>
+          </div>
+          <div class="feature-card">
+            <h3>Project Portfolio</h3>
+            <p>Ship capstone projects to showcase your growth.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Learning tracks</h2>
+        <p>Pick a focus and follow a structured plan built by experts.</p>
+        <div class="tracks">
+          <div class="track">
+            <h3>Design & UX</h3>
+            <ul>
+              <li>Product design fundamentals</li>
+              <li>Wireframing + prototyping</li>
+              <li>Portfolio review sessions</li>
+            </ul>
+          </div>
+          <div class="track">
+            <h3>Data & AI</h3>
+            <ul>
+              <li>Python, SQL, and analytics</li>
+              <li>Model building workshops</li>
+              <li>Weekly peer labs</li>
+            </ul>
+          </div>
+          <div class="track">
+            <h3>Product & Growth</h3>
+            <ul>
+              <li>Go-to-market strategy</li>
+              <li>Growth experiments</li>
+              <li>Executive storytelling</li>
+            </ul>
+          </div>
+        </div>
+        <div class="cta-banner">
+          <div>
+            <h3>Start learning in minutes</h3>
+            <p style="color: #fff;">Join thousands of learners building their next career move.</p>
+          </div>
+          <a class="btn-secondary" href="#">See pricing</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-grid">
+        <div>
+          <strong>Learnify</strong>
+          <p>Learning platform mockup for your Django project.</p>
+        </div>
+        <div>
+          <strong>Product</strong>
+          <p>Courses · Mentors · Community</p>
+        </div>
+        <div>
+          <strong>Company</strong>
+          <p>About · Careers · Contact</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
