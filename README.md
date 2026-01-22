@@ -5,6 +5,11 @@
 * github: guynut
 * pythonanywhere: kunguy.159@gmail.com
 
+### kimhan
+* name: นายคิมหันต์ จงใจดี
+* github: Deonmayon
+* pythonanywhere: somkidyai234@gmail.com
+
 ### Run Project (Dev)
 
 ```bash
