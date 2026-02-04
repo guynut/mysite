@@ -15,3 +15,8 @@
 ```bash
 uv run python manage.py runserver
 ```
+
+collect Static file
+```
+python manage.py collectstatic
+```
